@@ -1,0 +1,16 @@
+{
+    "basic_config": {
+        "policy": "RCA2_Init",
+        "trace": "seg_wiki/wiki_seg0"
+    },
+    "policy_config": {
+        "cache_size": 3811783475,
+        "region_size": 1000,
+        "alpha": 0.9
+    },
+    "evaluator_config": {
+        "region": 100,
+        "warmup": 1000000,
+        "verbose": true
+    }
+}
