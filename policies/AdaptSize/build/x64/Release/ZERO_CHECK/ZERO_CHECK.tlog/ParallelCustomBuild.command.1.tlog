@@ -1,0 +1,10 @@
+^D:\LAST_EXPREMENT_2\TCN_TEST\POLICIES\ADAPTSIZE_\TEST\BUILD\CMAKEFILES\C14CCE98FC0E643DCC1C32A5C19E3E18\GENERATE.STAMP.RULE
+setlocal
+D:\anaconda3\envs\adaptsize\Library\bin\cmake.exe -SD:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test -BD:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/adaptsize.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

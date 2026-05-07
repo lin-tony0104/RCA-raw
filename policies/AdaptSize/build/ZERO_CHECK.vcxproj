@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{81B98D0F-B583-31D3-AF56-6D07E7E18EC0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\c14cce98fc0e643dcc1c32a5c19e3e18\generate.stamp.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\anaconda3\envs\adaptsize\Library\bin\cmake.exe -SD:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test -BD:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/adaptsize.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\CMakeLists.txt;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeCCompiler.cmake;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeSystem.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CheckCXXCompilerFlag.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\FindPythonInterp.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\FindPythonLibsNew.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Common.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Config.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11ConfigVersion.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Targets.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Tools.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\anaconda3\envs\adaptsize\Library\bin\cmake.exe -SD:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test -BD:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/adaptsize.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\CMakeLists.txt;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeCCompiler.cmake;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeSystem.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CheckCXXCompilerFlag.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\FindPythonInterp.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\FindPythonLibsNew.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Common.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Config.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11ConfigVersion.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Targets.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Tools.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\anaconda3\envs\adaptsize\Library\bin\cmake.exe -SD:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test -BD:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/adaptsize.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\CMakeLists.txt;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeCCompiler.cmake;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeSystem.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CheckCXXCompilerFlag.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\FindPythonInterp.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\FindPythonLibsNew.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Common.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Config.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11ConfigVersion.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Targets.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Tools.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\anaconda3\envs\adaptsize\Library\bin\cmake.exe -SD:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test -BD:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/adaptsize.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\CMakeLists.txt;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeCCompiler.cmake;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\3.31.1\CMakeSystem.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CheckCXXCompilerFlag.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\FindPythonInterp.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\FindPythonLibsNew.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Common.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Config.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11ConfigVersion.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Targets.cmake;D:\anaconda3\envs\adaptsize\Library\share\cmake\pybind11\pybind11Tools.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\LAST_EXPREMENT_2\TCN_test\policies\AdaptSize_\test\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

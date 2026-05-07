@@ -1,0 +1,6 @@
+cd build
+cmake -A x64 ..
+cmake --build . --config Release
+
+
+到build/Release/  把adaptsize.pyd取出 並使用

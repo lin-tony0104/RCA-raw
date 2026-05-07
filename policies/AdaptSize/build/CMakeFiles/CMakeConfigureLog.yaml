@@ -1,0 +1,358 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine for .NET Framework 15.9.30+gc0e4b0e683 版
+      Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+      
+      已經開始建置於 2025/12/1 上午 01:48:11。
+      節點 1 (預設目標) 上的專案 "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\3.31.1\\CompilerIdC\\CompilerIdC.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        正在建立目錄 "Debug\\CompilerIdC.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\3.31.1\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"。
+      專案 "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\3.31.1\\CompilerIdC\\CompilerIdC.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+          0 個警告
+          0 個錯誤
+      
+      經過時間 00:00:00.90
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/3.31.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine for .NET Framework 15.9.30+gc0e4b0e683 版
+      Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+      
+      已經開始建置於 2025/12/1 上午 01:48:12。
+      節點 1 (預設目標) 上的專案 "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\3.31.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        正在建立目錄 "Debug\\CompilerIdCXX.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\3.31.1\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"。
+      專案 "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\3.31.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+          0 個警告
+          0 個錯誤
+      
+      經過時間 00:00:00.78
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/3.31.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-aye1zt"
+      binary: "D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-aye1zt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-aye1zt'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe" cmTC_cc180.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 15.9.30+gc0e4b0e683 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2025/12/1 上午 01:48:14。
+        節點 1 (預設目標) 上的專案 "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aye1zt\\cmTC_cc180.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_cc180.dir\\Debug\\"。
+          正在建立目錄 "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aye1zt\\Debug\\"。
+          正在建立目錄 "cmTC_cc180.dir\\Debug\\cmTC_cc180.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_cc180.dir\\Debug\\cmTC_cc180.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc180.dir\\Debug\\\\" /Fd"cmTC_cc180.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "D:\\anaconda3\\envs\\adaptsize\\Library\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27054 for x64
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc180.dir\\Debug\\\\" /Fd"cmTC_cc180.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "D:\\anaconda3\\envs\\adaptsize\\Library\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aye1zt\\Debug\\cmTC_cc180.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-aye1zt/Debug/cmTC_cc180.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-aye1zt/Debug/cmTC_cc180.lib" /MACHINE:X64  /machine:x64 cmTC_cc180.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_cc180.vcxproj -> D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aye1zt\\Debug\\cmTC_cc180.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_cc180.dir\\Debug\\cmTC_cc180.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_cc180.dir\\Debug\\cmTC_cc180.tlog\\cmTC_cc180.lastbuildstate"。
+        專案 "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aye1zt\\cmTC_cc180.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:01.19
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/HostX86/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/HostX86/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.16.27054.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-3uarfp"
+      binary: "D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-3uarfp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-3uarfp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe" cmTC_daf5c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 15.9.30+gc0e4b0e683 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2025/12/1 上午 01:48:15。
+        節點 1 (預設目標) 上的專案 "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3uarfp\\cmTC_daf5c.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_daf5c.dir\\Debug\\"。
+          正在建立目錄 "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3uarfp\\Debug\\"。
+          正在建立目錄 "cmTC_daf5c.dir\\Debug\\cmTC_daf5c.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_daf5c.dir\\Debug\\cmTC_daf5c.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_daf5c.dir\\Debug\\\\" /Fd"cmTC_daf5c.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "D:\\anaconda3\\envs\\adaptsize\\Library\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27054 for x64
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_daf5c.dir\\Debug\\\\" /Fd"cmTC_daf5c.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "D:\\anaconda3\\envs\\adaptsize\\Library\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3uarfp\\Debug\\cmTC_daf5c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-3uarfp/Debug/cmTC_daf5c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-3uarfp/Debug/cmTC_daf5c.lib" /MACHINE:X64  /machine:x64 cmTC_daf5c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_daf5c.vcxproj -> D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3uarfp\\Debug\\cmTC_daf5c.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_daf5c.dir\\Debug\\cmTC_daf5c.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_daf5c.dir\\Debug\\cmTC_daf5c.tlog\\cmTC_daf5c.lastbuildstate"。
+        專案 "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3uarfp\\cmTC_daf5c.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.94
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/HostX86/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/HostX86/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.16.27054.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake/pybind11/pybind11Common.cmake:323 (check_cxx_compiler_flag)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake/pybind11/pybind11Common.cmake:390 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake/pybind11/pybind11Common.cmake:435 (_pybind11_generate_lto)"
+      - "D:/anaconda3/envs/adaptsize/Library/share/cmake/pybind11/pybind11Config.cmake:250 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-bbdu7s"
+      binary: "D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-bbdu7s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-bbdu7s'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe" cmTC_5db7d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 15.9.30+gc0e4b0e683 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2025/12/1 上午 01:48:16。
+        節點 1 (預設目標) 上的專案 "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bbdu7s\\cmTC_5db7d.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_5db7d.dir\\Debug\\"。
+          正在建立目錄 "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bbdu7s\\Debug\\"。
+          正在建立目錄 "cmTC_5db7d.dir\\Debug\\cmTC_5db7d.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_5db7d.dir\\Debug\\cmTC_5db7d.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_5db7d.dir\\Debug\\\\" /Fd"cmTC_5db7d.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bbdu7s\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27054 for x64
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          
+          src.cxx
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_5db7d.dir\\Debug\\\\" /Fd"cmTC_5db7d.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bbdu7s\\src.cxx"
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bbdu7s\\Debug\\cmTC_5db7d.exe" /INCREMENTAL /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-bbdu7s/Debug/cmTC_5db7d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/LAST_EXPREMENT_2/TCN_test/policies/AdaptSize_/test/build/CMakeFiles/CMakeScratch/TryCompile-bbdu7s/Debug/cmTC_5db7d.lib" /MACHINE:X64  /machine:x64 cmTC_5db7d.dir\\Debug\\src.obj
+        LINK : warning LNK4075: 忽略 '/INCREMENTAL'，由於 '/LTCG' 規格 [D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bbdu7s\\cmTC_5db7d.vcxproj]
+          正在產生程式碼
+          已完成程式碼產生
+          cmTC_5db7d.vcxproj -> D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bbdu7s\\Debug\\cmTC_5db7d.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_5db7d.dir\\Debug\\cmTC_5db7d.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_5db7d.dir\\Debug\\cmTC_5db7d.tlog\\cmTC_5db7d.lastbuildstate"。
+        專案 "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bbdu7s\\cmTC_5db7d.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+        
+        "D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bbdu7s\\cmTC_5db7d.vcxproj" (預設目標) (1) ->
+        (Link 目標) -> 
+          LINK : warning LNK4075: 忽略 '/INCREMENTAL'，由於 '/LTCG' 規格 [D:\\LAST_EXPREMENT_2\\TCN_test\\policies\\AdaptSize_\\test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bbdu7s\\cmTC_5db7d.vcxproj]
+        
+            1 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.95
+        
+      exitCode: 0
+...
