@@ -1,0 +1,4 @@
+Trace: wiki2018
+Total Requests: 2800000000
+Unique Objects: 37526211
+Working Set Size (bytes): 6101590064106
