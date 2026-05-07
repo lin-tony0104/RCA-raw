@@ -1,0 +1,16 @@
+{
+    "basic_config": {
+        "policy": "TinyLFU",
+        "trace": "seg_wiki/wiki_seg5"
+    },
+    "policy_config": {
+        "cache_size": 3811783475,
+        "sample": 100000,
+        "false_positive": 0.1
+    },
+    "evaluator_config": {
+        "region": 100,
+        "warmup": 1000000,
+        "verbose": true
+    }
+}
