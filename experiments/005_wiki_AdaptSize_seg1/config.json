@@ -1,0 +1,14 @@
+{
+    "basic_config": {
+        "policy": "AdaptSize",
+        "trace": "seg_wiki/wiki_seg1"
+    },
+    "policy_config": {
+        "cache_size": 3811783475
+    },
+    "evaluator_config": {
+        "region": 100,
+        "warmup": 1000000,
+        "verbose": true
+    }
+}
