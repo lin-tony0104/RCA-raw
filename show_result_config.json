@@ -1,0 +1,27 @@
+{
+"備註":"",
+"basic_config":"給run.py看的",
+"policy_config":"給policy看的 例如LRU.py, LFU.py等等",
+"evaluator_config":"將來做圖表的時候用的"
+}
+
+
+
+=================以下是主要內容==================
+{
+  "basic_config":{
+    "policy":"run.py裡面 policy_list的key值",
+    "trace":"trace/下的trace名字"
+  },
+  
+  "policy_config":{
+      "cache_size":"必要",
+      "視policy會有不同":"因policy而定"
+  },
+  
+  "evaluator_config":{
+      "region":100,
+      "verbose":true
+      
+  }
+}
